@@ -169,13 +169,17 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\CustomersController.cs" />
+=======
+>>>>>>> 9029b8f69c47c20ec890eaa78ea63837408d5c2d
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\202206172301456_InitialModel.cs" />
     <Compile Include="Migrations\202206172301456_InitialModel.designer.cs">
       <DependentUpon>202206172301456_InitialModel.cs</DependentUpon>
@@ -183,12 +187,18 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+=======
+    <Compile Include="Models\AccountViewModels.cs" />
+>>>>>>> 9029b8f69c47c20ec890eaa78ea63837408d5c2d
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+<<<<<<< HEAD
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
+=======
+>>>>>>> 9029b8f69c47c20ec890eaa78ea63837408d5c2d
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-lumen.css" />
@@ -248,10 +258,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
+=======
+>>>>>>> 9029b8f69c47c20ec890eaa78ea63837408d5c2d
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -269,11 +282,14 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202206172301456_InitialModel.resx">
       <DependentUpon>202206172301456_InitialModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+=======
+>>>>>>> 9029b8f69c47c20ec890eaa78ea63837408d5c2d
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
